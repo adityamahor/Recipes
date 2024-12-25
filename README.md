@@ -54,12 +54,6 @@ app
             ├── show_data
             └── Localhelper.kt
 ```
-
-## App Preview
-
-![App Preview](assets/preview.gif)
-
-
 ---
 
 ## Technologies Used
