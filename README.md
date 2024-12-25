@@ -55,6 +55,11 @@ app
             └── Localhelper.kt
 ```
 
+## App Preview
+
+![App Preview](assets/preview.gif)
+
+
 ---
 
 ## Technologies Used
@@ -92,12 +97,6 @@ app
 ## Contributions
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
