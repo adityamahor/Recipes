@@ -67,13 +67,15 @@ app
 
 ## Screenshots
 
-1. **Home Screen**
-   Displays categories and popular recipes.
-2. **Recipe Details**
-   View detailed instructions and ingredients.
-3. **Authentication**
+1. **Authentication**
    Sign up, Sign in, and Forgot Password flows.
-
+    ![image alt] ("https://github.com/adityamahor/Recipes/blob/4fd584748a68aec31378ba86e3a8ed72ea763b28/Screenshot_20241225-152147.png")
+2. **Home Screen**
+   Displays categories and popular recipes.
+   ![image alt] ("https://github.com/adityamahor/Recipes/blob/4fd584748a68aec31378ba86e3a8ed72ea763b28/Screenshot_20241225-152147.png")
+3. **Recipe Details**
+   View detailed instructions and ingredients.
+    ![image alt] ("https://github.com/adityamahor/Recipes/blob/4fd584748a68aec31378ba86e3a8ed72ea763b28/Screenshot_20241225-152147.png")
 ---
 
 ## Installation
