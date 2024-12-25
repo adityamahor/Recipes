@@ -68,21 +68,28 @@ app
 ## Screenshots
 
 1. **Authentication**
-   Sign up, Sign in, and Forgot Password flows.
-   ![Screenshot_20241225-154732](https://github.com/user-attachments/assets/a3200fac-66fa-4ee2-b3e5-3ab04ceaa5bd)
-![Screenshot_20241225-154737](https://github.com/user-attachments/assets/9a38a9e3-bed8-485d-bcb6-e46c85001b62)
+Sign up, Sign in, and Forgot Password flows.
+   
+![Screenshot 2024-12-25 155542](https://github.com/user-attachments/assets/d2115e12-b402-4080-b094-bb71808075aa)
+![Screenshot 2024-12-25 155606](https://github.com/user-attachments/assets/c35230e2-33e8-4d71-88ef-82ac3293549c)
+![Screenshot 2024-12-25 155554](https://github.com/user-attachments/assets/d635d389-bc38-49da-aeb0-dba38da69122)
 
 3. **Home Screen**
-   Displays categories and popular recipes.
-    ![Screenshot_20241225-152147](https://github.com/user-attachments/assets/a534d008-76cf-4dfb-8dcf-0cd61d59d5a5)
-   
+Displays categories and popular recipes.
+
+![Screenshot 2024-12-25 155431](https://github.com/user-attachments/assets/15a5f294-a61c-4677-90f2-bed1c8dc1bfc)
+![Screenshot 2024-12-25 155445](https://github.com/user-attachments/assets/c39c732e-910c-4ce6-aa9d-a1503ee70168)
+![Screenshot 2024-12-25 155528](https://github.com/user-attachments/assets/d4e3636a-5a8f-4c02-830b-acf6aeb599c2)
+
 5. **Recipe Details**
-   View detailed instructions and ingredients.
-![Screenshot_20241225-152200](https://github.com/user-attachments/assets/85ac9045-e4ca-4d94-94bb-a319b25d8d78)
+View detailed instructions and ingredients.
+
+![Screenshot 2024-12-25 155514](https://github.com/user-attachments/assets/32d86d72-1adc-446f-88e7-ef27688d4dc3)
 
 6. ** Search functionality   
-    you can find your favorite food
-   ![Screenshot_20241225-152156](https://github.com/user-attachments/assets/1e20d772-1b82-4617-ae81-e90b93e88694)
+you can find your favorite food
+   
+![Screenshot 2024-12-25 155503](https://github.com/user-attachments/assets/75990a60-4e92-4c24-a6fc-e2130d33b152)
 
 ---
 
