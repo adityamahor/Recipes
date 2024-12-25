@@ -69,13 +69,21 @@ app
 
 1. **Authentication**
    Sign up, Sign in, and Forgot Password flows.
-    ![image alt] ("https://github.com/adityamahor/Recipes/blob/4fd584748a68aec31378ba86e3a8ed72ea763b28/Screenshot_20241225-152147.png")
-2. **Home Screen**
+   ![Screenshot_20241225-154732](https://github.com/user-attachments/assets/a3200fac-66fa-4ee2-b3e5-3ab04ceaa5bd)
+![Screenshot_20241225-154737](https://github.com/user-attachments/assets/9a38a9e3-bed8-485d-bcb6-e46c85001b62)
+
+3. **Home Screen**
    Displays categories and popular recipes.
-   ![image alt] ("https://github.com/adityamahor/Recipes/blob/4fd584748a68aec31378ba86e3a8ed72ea763b28/Screenshot_20241225-152147.png")
-3. **Recipe Details**
+    ![Screenshot_20241225-152147](https://github.com/user-attachments/assets/a534d008-76cf-4dfb-8dcf-0cd61d59d5a5)
+   
+5. **Recipe Details**
    View detailed instructions and ingredients.
-    ![image alt] ("https://github.com/adityamahor/Recipes/blob/4fd584748a68aec31378ba86e3a8ed72ea763b28/Screenshot_20241225-152147.png")
+![Screenshot_20241225-152200](https://github.com/user-attachments/assets/85ac9045-e4ca-4d94-94bb-a319b25d8d78)
+
+6. ** Search functionality   
+    you can find your favorite food
+   ![Screenshot_20241225-152156](https://github.com/user-attachments/assets/1e20d772-1b82-4617-ae81-e90b93e88694)
+
 ---
 
 ## Installation
