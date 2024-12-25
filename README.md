@@ -79,12 +79,12 @@ Displays categories and popular recipes.
 
 ![Screenshot 2024-12-25 155431](https://github.com/user-attachments/assets/15a5f294-a61c-4677-90f2-bed1c8dc1bfc)
 ![Screenshot 2024-12-25 155445](https://github.com/user-attachments/assets/c39c732e-910c-4ce6-aa9d-a1503ee70168)
-![Screenshot 2024-12-25 155528](https://github.com/user-attachments/assets/d4e3636a-5a8f-4c02-830b-acf6aeb599c2)
 
 5. **Recipe Details**
 View detailed instructions and ingredients.
 
 ![Screenshot 2024-12-25 155514](https://github.com/user-attachments/assets/32d86d72-1adc-446f-88e7-ef27688d4dc3)
+![Screenshot 2024-12-25 155528](https://github.com/user-attachments/assets/d4e3636a-5a8f-4c02-830b-acf6aeb599c2)
 
 6. ** Search functionality   
 you can find your favorite food
