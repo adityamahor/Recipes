@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/catagoryitemimage"
+                android:layout_width="80dp"
+                android:src="@drawable/pizza"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="80dp">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:id="@+id/categoryitemname"
+                    android:text="Chizzy pizza"
+                    android:textSize="19sp"
+                    android:maxLines="2"
+                    android:fontFamily="@font/robotomedium"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="26dp"
+                        android:src="@drawable/baseline_access_time_filled_24"
+                        android:layout_height="26sp"
+                        app:tint="@color/black">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/categoryitemtime"
+                        android:layout_width="match_parent"
+                        android:text="30:25"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="19sp"
+                        android:textColor="@color/gray"
+                        android:fontFamily="@font/robotomedium"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/categoryitemshowdata"
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:rotationY="-180"
+                android:src="@drawable/baseline_arrow_back_24"
+                app:tint="@color/green">
+            </ImageView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

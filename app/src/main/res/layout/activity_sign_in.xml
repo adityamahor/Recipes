@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.signIn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/foodlogo">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/robotoblack"
+                android:gravity="center"
+                android:text="Your recipe book is waiting—Login to explore!"
+                android:textColor="@color/green"
+                android:textSize="22sp">
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                app:hintTextColor="@color/black"
+                android:layout_marginTop="5dp"
+                app:cursorColor="@color/black"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="#302F2F"
+                android:layout_marginEnd="12dp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/signInemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robotomedium"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                app:cursorColor="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="#302F2F"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/signInpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robotomedium"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="terms &amp; conditions"
+                    android:textColor="@color/black"
+                    android:textSize="17sp">
+                </CheckBox>
+
+                <TextView
+                    android:id="@+id/forgetpassword"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="@color/red"
+                    android:textSize="17sp"
+                    android:gravity="end"
+                    android:layout_marginEnd="12dp"
+                    android:text="Forget password"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signInbtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="90dp"
+                android:background="@drawable/bg_for_signup_btn"
+                android:fontFamily="@font/robotomedium"
+                android:gravity="center"
+                android:text="Sign In"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Or"
+                android:fontFamily="@font/robotoblack"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:layout_height="30dp">
+            </TextView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logingoogle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginEnd="90dp"
+                android:text="Login In with google"
+                android:background="@drawable/bg_for_google_btn"
+                android:fontFamily="@font/robotomedium"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:drawableStart="@drawable/google"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <TextView
+                android:id="@+id/registration"
+                android:layout_width="match_parent"
+                android:text="@string/signuptext"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:fontFamily="@font/robotoregular"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About us"
+        android:id="@+id/aboutus"
+        android:checkable="true"
+        android:iconTint="@color/black"
+        android:icon="@drawable/about_us_drawable">
+
+    </item>
+    <item android:title="Private policy"
+        android:id="@+id/privacy"
+        android:checkable="true"
+        android:iconTint="@color/black"
+        android:icon="@drawable/privacy_drawable">
+    </item>
+    <item android:title="Share"
+        android:checkable="true"
+        android:id="@+id/share"
+        android:iconTint="@color/black"
+        android:icon="@drawable/share_drawable"
+        />
+
+    <item android:title="Other feautures">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:title="rate us"
+                android:checkable="true"
+                android:id="@+id/rating"
+                android:icon="@drawable/rate_drawable"
+                android:iconTint="@color/black"
+                />
+
+            <item android:title="Logout"
+                android:id="@+id/logout"
+                android:iconTint="@color/black"
+                android:checkable="true"
+                android:icon="@drawable/logout">
+            </item>
+
+
+        </menu>
+    </item>
+
+</menu>

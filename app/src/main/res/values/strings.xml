@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="signuptext">Don\'t have an account <font color="#26AF02">Sign Up</font></string>
+    <string name="default_web_client_id">109263514806-eibt5mfpnq2eajqn2qmq35f9fcm20647.apps.googleusercontent.com</string>
+    <string name="foodname">Hello <font color="#26AF02">foodie !</font></string>
+    <string name="description">
+        1) Welcome to Recipe app, your ultimate culinary companion for exploring, creating, and sharing delightful recipes. Whether you
+        are a seasoned chef or a kitchen beginner, our app is designed to inspire your inner foodie and elevate your cooking experience.\n
+
+       2) Discover a vast collection of recipes from around the world, ranging from quick weekday meals to gourmet dishes. With easy-to-follow
+        instructions, ingredient lists, and preparation tips, you\'ll never run out of ideas for your next meal. Use our advanced search feature to
+        find recipes tailored to your preferences, whether it\'s vegan, gluten-free, or a cuisine from a specific region.\n
+
+       3) Stay organized with personalized recipe collections, and bookmark your favorites for easy access. Our interactive interface allows you to upload
+        your own recipes, share your culinary creations, and engage with a community of passionate food lovers.\n
+
+       4) The app also features step-by-step video guides, nutritional information, and cooking timers to make your time in the kitchen more efficient
+        and enjoyable. For those who like experimenting, our ingredient substitution tool and serving size calculator ensure flexibility and precision.\n
+
+       5) From cooking beginners to expert chefs, [App Name] transforms your kitchen into a world of flavors. Download now and start your journey to delicious,
+        homemade meals!
+    </string>
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showdata.show_data"
+    app:layoutDescription="@xml/activity_show_data_scene">
+
+    <ImageView
+        android:id="@+id/itemimage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:hapticFeedbackEnabled="true"
+        android:src="@drawable/pizza"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/shade"
+        android:layout_height="0dp"
+        android:background="@drawable/shadow_overlay"
+        app:layout_constraintBottom_toBottomOf="@+id/itemimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/backhome"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/back_btn_bg"
+        android:clickable="true"
+        android:foregroundGravity="center"
+        android:hapticFeedbackEnabled="true"
+        android:padding="7dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/fullscreen"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/baseline_fullscreen_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white">
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/bg_relative_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemimage">
+
+        <TextView
+            android:id="@+id/recipetittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/robotomedium"
+            android:text="I am a Sample tittle"
+            android:textColor="@color/black"
+            android:textSize="21sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/recipetime"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_below="@+id/recipetittle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/baseline_access_time_filled_24"
+            app:tint="@color/black">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/recipetimetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recipetittle"
+            android:layout_alignStart="@+id/recipetime"
+            android:layout_marginStart="27sp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/robotomedium"
+            android:text="23:30 Pm"
+            android:textColor="@color/gray"
+            android:textSize="18sp">
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ing"
+            android:layout_width="160dp"
+            android:text="Ingredients"
+            android:background="@drawable/alternate_bg"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_below="@id/recipetime"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/step"
+            android:layout_width="160dp"
+            android:text="Steps"
+            android:background="@drawable/btn_background"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_below="@id/recipetime"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <ScrollView
+            android:id="@+id/stepdata"
+            android:layout_width="match_parent"
+            android:layout_below="@id/ing"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stp"
+                android:layout_width="match_parent"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="20sp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/ingredientdata"
+            android:layout_width="match_parent"
+            android:layout_below="@id/step"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20sp"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/instruction"
+                android:layout_width="match_parent"
+                android:text=""
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="21sp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/motion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10sp"
+        android:src="@drawable/baseline_keyboard_arrow_up_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemimage"
+        app:tint="@color/black">
+    </ImageView>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
